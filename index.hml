@@ -3,55 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vítor Fernandes PT</title>
+  <title>Vítor Fernandes PT Online</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #000; color: #fff; }
-    header { background: #b30000; padding: 20px; text-align: center; }
-    header h1 { margin: 0; }
-    section { padding: 20px; }
-    .planos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    .plano { border: 2px solid #b30000; padding: 15px; border-radius: 8px; }
-    footer { background: #111; text-align: center; padding: 15px; font-size: 14px; }
-    a { color: #b30000; font-weight: bold; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      background: #e60000;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+    .pacotes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .pacote {
+      border: 2px solid #e60000;
+      border-radius: 8px;
+      padding: 20px;
+      background: #111;
+    }
+    .pacote h2 {
+      color: #e60000;
+      margin-bottom: 10px;
+    }
+    .botao {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 12px 20px;
+      background: #e60000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .botao:hover {
+      background: #b30000;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background: #111;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Vítor Fernandes PT Online</h1>
-    <p>Especialista em emagrecimento feminino</p>
+    <h1>Vítor Fernandes</h1>
+    <p>PT Online | Especialista em Emagrecimento Feminino</p>
   </header>
 
-  <section>
-    <h2>Planos de acompanhamento</h2>
-    <div class="planos">
-      <div class="plano">
-        <h3>Plano 1</h3>
-        <p>Plano de treino <b>ou</b> alimentação <br> (sem acompanhamento).</p>
-      </div>
-      <div class="plano">
-        <h3>Plano 2</h3>
-        <p>Plano de treino <b>ou</b> alimentação <br> (com acompanhamento).</p>
-      </div>
-      <div class="plano">
-        <h3>Plano 3</h3>
-        <p>Plano de treino <b>ou</b> alimentação <br> (com acompanhamento) + <br> plano extra sem acompanhamento.</p>
-      </div>
-      <div class="plano">
-        <h3>Plano 4</h3>
-        <p>Plano de treino + alimentação <br> (ambos com acompanhamento).</p>
-      </div>
+  <section class="pacotes">
+    <div class="pacote">
+      <h2>Pacote 1</h2>
+      <p>Plano de treino <b>ou</b> alimentação <br> (sem acompanhamento).</p>
+    </div>
+    <div class="pacote">
+      <h2>Pacote 2</h2>
+      <p>Plano de treino <b>ou</b> alimentação <br> com acompanhamento.</p>
+    </div>
+    <div class="pacote">
+      <h2>Pacote 3</h2>
+      <p>Plano de treino <b>ou</b> alimentação <br> com acompanhamento <br> + plano extra sem acompanhamento.</p>
+    </div>
+    <div class="pacote">
+      <h2>Pacote 4</h2>
+      <p>Plano de treino <b>e</b> alimentação <br> ambos com acompanhamento.</p>
     </div>
   </section>
 
   <section>
-    <h2>Contactos</h2>
-    <p>📞 +351 919 283 532</p>
-    <p>📧 vitor_fernandes@live.com.pt</p>
-    <p>📷 Instagram: <a href="https://instagram.com/vitorfernandespt" target="_blank">@vitorfernandespt</a></p>
+    <a class="botao" href="https://wa.me/351919283532" target="_blank">📲 WhatsApp</a>
+    <a class="botao" href="https://instagram.com/vitorfernandespt" target="_blank">📸 Instagram</a>
+    <a class="botao" href="mailto:vitor_fernandes@live.com.pt" target="_blank">✉️ Email</a>
   </section>
 
   <footer>
-    <p>© 2025 Vítor Fernandes - Todos os direitos reservados</p>
+    <p>© 2025 Vítor Fernandes - Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
