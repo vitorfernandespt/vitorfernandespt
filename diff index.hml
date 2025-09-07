@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vítor Fernandes PT</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #000; color: #fff; }
+    header { background: #b30000; padding: 20px; text-align: center; }
+    header h1 { margin: 0; }
+    section { padding: 20px; }
+    .planos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .plano { border: 2px solid #b30000; padding: 15px; border-radius: 8px; }
+    footer { background: #111; text-align: center; padding: 15px; font-size: 14px; }
+    a { color: #b30000; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vítor Fernandes PT Online</h1>
+    <p>Especialista em emagrecimento feminino</p>
+  </header>
+
+  <section>
+    <h2>Planos de acompanhamento</h2>
+    <div class="planos">
+      <div class="plano">
+        <h3>Plano 1</h3>
+        <p>Plano de treino <b>ou</b> alimentação <br> (sem acompanhamento).</p>
+      </div>
+      <div class="plano">
+        <h3>Plano 2</h3>
+        <p>Plano de treino <b>ou</b> alimentação <br> (com acompanhamento).</p>
+      </div>
+      <div class="plano">
+        <h3>Plano 3</h3>
+        <p>Plano de treino <b>ou</b> alimentação <br> (com acompanhamento) + <br> plano extra sem acompanhamento.</p>
+      </div>
+      <div class="plano">
+        <h3>Plano 4</h3>
+        <p>Plano de treino + alimentação <br> (ambos com acompanhamento).</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contactos</h2>
+    <p>📞 +351 919 283 532</p>
+    <p>📧 vitor_fernandes@live.com.pt</p>
+    <p>📷 Instagram: <a href="https://instagram.com/vitorfernandespt" target="_blank">@vitorfernandespt</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Vítor Fernandes - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
